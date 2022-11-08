@@ -19,7 +19,6 @@ int main() {
   for (int i=0; i<3; i++){
       int n = x % 10;
       x /= 10;
-      std::cout << n << std::endl;
 
       switch (i){
           case 0:
